@@ -1,0 +1,364 @@
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                text-decoration: none;
+                list-style: none;
+                color: #20202f;
+                font-family: 'Courier New', monospace;
+            }
+            
+            a:hover {
+                opacity: 0.5;
+            }
+            
+            .current_page {
+                background-color: cornsilk;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            .navi_bar>ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .navi_bar>ul>li {
+                font-size: large;
+                margin: 15px;
+            }
+            
+            .navi_bar>ul>li>a:hover {
+                opacity: 0.5;
+            }
+            
+            .navi_bar>hr {
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .navi_bar {
+                padding-bottom: 40px;
+            }
+            
+            .logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+                padding-bottom: 15px;
+            }
+            
+            .logo img {
+                width: 300px;
+            }
+            
+            .intro h1 {
+                font-size: 50px;
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+            
+            .intro_img_container {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+            }
+            
+            .intro img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .intro p {
+                margin-left: 25%;
+                margin-right: 25%;
+                padding: 30px;
+                border: 1px solid #20202f;
+                border-radius: 10px;
+            }
+            
+            .intro h2 {
+                font-size: 50px;
+                text-align: center;
+                padding-top: 30px;
+            }
+            
+            .intro>hr {
+                margin-top: 40px;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .wrapper {
+                padding-bottom: 200px;
+            }
+            
+            footer {
+                background-color: #d7d6ea;
+                padding: 20px;
+                text-align: center;
+                width: 100%;
+            }
+            
+            footer>a:hover {
+                opacity: 0.5;
+            }
+            /* History */
+            
+            .history_intro {
+                display: inline-grid;
+                grid-template-columns: auto auto;
+            }
+            
+            h1 {
+                text-align: center;
+                font-size: 50px;
+            }
+            
+            .history_container {
+                border: 1px solid #20202f;
+                border-radius: 10px;
+                padding: 40px;
+                margin: 20px;
+                text-align: justify;
+            }
+            
+            .history_container img {
+                display: block;
+                margin: 30px auto 0;
+                width: 100%;
+                height: auto;
+                max-width: 800px;
+                max-height: 600px;
+            }
+            /* Members */
+            
+            .members {
+                display: inline-grid;
+                grid-template-columns: auto auto;
+                width: 100%;
+            }
+            
+            .list_members {
+                border: 1px solid #20202f;
+                border-radius: 10px;
+                padding: 0px;
+                margin: 20px;
+            }
+            
+            .status_members {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .list_members>ul {
+                padding-left: 50px;
+                padding-bottom: 40px;
+            }
+            
+            .list_members>ul>li {
+                list-style-type: disc;
+            }
+            
+            .detailed_info {
+                display: inline-grid;
+                grid-template-columns: auto auto auto;
+                width: 100%;
+                justify-content: center;
+                grid-gap: 75px;
+            }
+            
+            .detailed_info img {
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 400px;
+                max-height: 500px;
+                padding-bottom: 50px;
+            }
+            
+            .member_info {
+                border: 1px solid #20202f;
+                border-radius: 10px;
+            }
+            
+            .member_info h3 {
+                text-align: center;
+                margin: 30px auto 30px;
+            }
+            
+            .name,
+            .birthday,
+            .hometown,
+            .role_in_bh {
+                text-align: center;
+            }
+            /* Discography */
+            
+            .discography {
+                display: inline-grid;
+                grid-template-columns: auto auto;
+                padding: 40px;
+                margin: 0 150px 0px 150px;
+            }
+            
+            .discography_container {
+                border: 1px solid #20202f;
+                border-radius: 10px;
+                padding: 40px;
+                margin: 20px;
+                text-align: justify;
+                text-align: center;
+            }
+            
+            .discography_container img {
+                display: block;
+                margin: 30px auto 0;
+                width: 100%;
+                height: auto;
+                max-height: 600px;
+                max-width: 400px;
+            }
+            /*  Favourite */
+            
+            h2 {
+                font-size: 40px;
+                text-align: center;
+                padding: 40px 0px 10px;
+            }
+            
+            .favourite_tracks {
+                display: inline-grid;
+                grid-template-columns: auto auto auto;
+                justify-content: center;
+                grid-gap: 75px;
+                width: 100%;
+                padding-top: 30px;
+            }
+            
+            .track_container {
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            
+            .track_container img {
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                max-height: 300px;
+                padding-bottom: 20px;
+            }
+            
+            .hr_fav {
+                width: 20%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .favourite_tracks>.track_container a:hover {
+                opacity: 0.5;
+            }
+            
+            .album_name,
+            .video_name {
+                font-size: 40px;
+                text-align: center;
+            }
+            
+            .album_container img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                max-width: 600px;
+            }
+            
+            .music_video {
+                display: block;
+                margin: 0 auto;
+                min-width: 600px;
+                max-width: 400px;
+                height: auto;
+                min-height: 400px;
+                width: fit-content;
+            }
+            
+            @media screen and (max-width: 720px) {
+                .history_container img {
+                    max-width: 400px;
+                    margin: 0;
+                    padding: 0;
+                }
+                .history_intro {
+                    display: inline-grid;
+                    grid-template-columns: auto;
+                }
+                .history_container {
+                    border: 1px solid #20202f;
+                    border-radius: 10px;
+                    text-align: justify;
+                }
+                .detailed_info {
+                    display: inline-grid;
+                    grid-template-columns: auto auto;
+                    width: 100%;
+                    justify-content: center;
+                    grid-gap: 25px;
+                }
+                .discography {
+                    display: inline-grid;
+                    grid-template-columns: auto;
+                    margin: 0 150px 0px 150px;
+                }
+                .favourite_tracks {
+                    display: inline-grid;
+                    grid-template-columns: auto auto;
+                    justify-content: center;
+                    grid-gap: 75px;
+                    width: 100%;
+                    padding-top: 30px;
+                }
+                .members {
+                    display: inline-grid;
+                    grid-template-columns: auto;
+                    width: 100%;
+                }
+                .intro h1 {
+                    font-size: 20px;
+                    position: absolute;
+                    top: 15%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                }
+            }
+            
+            @media screen and (max-width: 1024px) {
+                .discography {
+                    display: inline-grid;
+                    grid-template-columns: auto;
+                    margin: 0 150px 0px 150px;
+                }
+                .history_intro {
+                    display: inline-grid;
+                    grid-template-columns: auto auto;
+                    margin: 0;
+                }
+                .history_container img {
+                    max-width: 400px;
+                }
+            }

@@ -1,0 +1,16 @@
+    @media print {
+        * {
+            background-image: none !important;
+        }
+        .logo,
+        .intro_img_container,
+        .navi_bar,
+        .history_container img,
+        .member_info img,
+        .discography_container img,
+        .do_not_print,
+        .favourite_album img,
+        .music_video {
+            display: none;
+        }
+    }
